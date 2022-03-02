@@ -1,0 +1,63 @@
+/* 整理code> alt+shift+f 只有html可以用*/
+/* . 是呼叫, >選兒子, 空一格 相關都選 */
+/* font awesome 有小標標 */
+/* 自動換行 alt+Z  */
+/* padding 間距 */
+.primary{
+    color: rgb(60, 106, 235);
+}
+
+.secondary{
+    color: darkblue;
+}
+.tertiary{
+    color: rgb(192, 209, 245);
+}
+
+.container{
+    max-width: 1000px;
+    margin: 10 auto;
+    /* 上下(0) 左右(auto) control ?是註解 */
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.intro-block .row{
+    align-items: center;
+}
+
+.avatar{
+    width: 20%;
+}
+
+.avatar img{
+    width: 95%;
+    border-radius: 50%;
+    margin-right: 10px;
+
+}
+
+.content{
+    width: 70%;
+}
+
+.contact-me ul{
+    list-style: none;
+    padding: 0;
+}
+
+.contact-me>ul li{
+    display: inline;
+    padding: 10px;
+    }
+
+    .secondary {
+        color: rgb(0, 102, 255);
+    }
+
+    .title {
+        font-size: 40 px;
+    }
